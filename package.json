@@ -1,0 +1,19 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "NodeJs design pattern ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angyeongeun/design-pattern.git"
+  },
+  "author": "ankyeongeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angyeongeun/design-pattern/issues"
+  },
+  "homepage": "https://github.com/angyeongeun/design-pattern#readme"
+}
