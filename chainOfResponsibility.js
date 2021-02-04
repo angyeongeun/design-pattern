@@ -10,6 +10,7 @@ var General = (function() {// IIFE(Immediately-invoked function expression: 즉�
     return General;
   })();
 
+
 var Senator = (function() {
     function Senator() {}
     Senator.prototype.canMakeDecision = function() {
@@ -36,10 +37,11 @@ var Emperor = (function() {
     return Emperor;
   })();
 
+
 var DecisionMaker = (function() {
     function DecisionMaker() {
       this.decisionMakers = [];
-      this.decisionMakers.push(new General());
+      this.decisionMakers.push(new General());//general 함수 push
       this.decisionMakers.push(new Senator());
       this.decisionMakers.push(new Emperor());
     }
