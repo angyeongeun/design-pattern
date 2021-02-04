@@ -42,7 +42,7 @@ function Sedan(name, speed, maxSpeed) {
 
 Sedan.prototype = Object.create(Vihicle.prototype);// Sedan의 메소드 = Vihicle의 메소드
 
-// Sedan.prototype.constructor = Sedan; //
+Sedan.prototype.constructor = Sedan; //
 
 Sedan.prototype.boost = function () {
   console.log(this.name + ' Maximum speed is '+ this.maxSpeed);
